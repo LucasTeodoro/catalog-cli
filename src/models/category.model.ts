@@ -16,8 +16,7 @@ export class Category extends Entity {
   @property({
     type: 'string',
     id: true,
-    generated: false,
-    required: true,
+    generated: true,
   })
   id: string;
 
