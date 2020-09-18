@@ -59,7 +59,6 @@ export class PingController {
   @post("/category")
   create(): object {
     return this.categoryRepo.create({
-      id: '1',
       name: "Categoria 1",
       description: "a primeira categoria"
     });
